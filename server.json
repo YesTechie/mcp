@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.yestechie/site",
+  "title": "YesTechie — UniFi Network & Security Integrator",
+  "description": "UniFi quotes, case studies and network, camera, access config guides from a nationwide integrator.",
+  "version": "1.0.1",
+  "websiteUrl": "https://yestechie.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yestechie.com/api/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "tags": [
+        "unifi",
+        "unifi-configuration",
+        "network-guides",
+        "case-studies",
+        "network-installation",
+        "security-cameras",
+        "access-control",
+        "structured-cabling",
+        "wifi",
+        "quote",
+        "estimate",
+        "nationwide",
+        "site-survey"
+      ]
+    }
+  }
+}
